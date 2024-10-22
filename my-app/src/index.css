@@ -5,10 +5,31 @@
 }
 
 body {
-  background: linear-gradient(#0d0d0d, #242424);
+  background: linear-gradient(#000000, #363636);
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
   height: 100vh;
+}
+
+.container {
+  padding: 100px;
+  padding-bottom: 250px;
+}
+
+input {
+  height: 35px;
+}
+
+h1 {
+  margin-bottom: 75px;
+}
+
+.botoes {
+  margin-top: 20px;
+}
+
+.display {
+  height: 100px;
 }

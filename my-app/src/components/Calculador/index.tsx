@@ -1,15 +1,15 @@
 function Calculador() {
     return (
-        <div className="container bg-black">
+        <div className="container border-0 rounded-3">
             <h1 className="text-white">Conversor de Binario</h1>
             <div className="pesquisa">
-                <input type="number" placeholder="Digite o número a ser convertido"/>
+                <input type="number" placeholder="Digite o número a ser convertido" className="border rounded w-100"/>
             </div>
-            <div className="botoes padding">
-                <button className="btn btn-info mx-3">Para Binario</button>
-                <button className=" btn btn-info">Para Decimal</button>
+            <div className="botoes pt-5">
+                <button className="btn btn-info me-4 fw-semibold">Para Binario</button>
+                <button className=" btn btn-info fw-semibold">Para Decimal</button>
             </div>
-            <div className="display">
+            <div className="display text-black bg-white mt-5 border rounded">
                 <p>474756</p>
             </div>
         </div>
